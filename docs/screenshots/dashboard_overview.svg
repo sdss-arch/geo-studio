@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="1200" height="42" fill="#0f172a" />
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  <text x="600" y="26" fill="#94a3b8" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">GEO STUDIO — ENTERPRISE DASHBOARD &amp; WAR ROOM</text>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="0" y="42" width="1200" height="54" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+  <rect x="24" y="54" width="30" height="30" rx="6" fill="#1d4ed8" />
+  <text x="39" y="74" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">G</text>
+  <text x="64" y="70" fill="#0f172a" font-size="16" font-weight="800">GEO Studio</text>
+  <rect x="156" y="60" width="46" height="18" rx="4" fill="#dbeafe" />
+  <text x="179" y="73" fill="#1e40af" font-size="10" font-weight="700" text-anchor="middle">PRO</text>
+
+  <!-- Nav Tabs -->
+  <text x="250" y="73" fill="#64748b" font-size="13" font-weight="500">小白通关向导</text>
+  <text x="370" y="73" fill="#2563eb" font-size="13" font-weight="700">全网多平台阵地</text>
+  <rect x="365" y="93" width="95" height="3" fill="#2563eb" />
+  <text x="500" y="73" fill="#64748b" font-size="13" font-weight="500">实机搜索探测</text>
+  <text x="620" y="73" fill="#64748b" font-size="13" font-weight="500">普林斯顿文案重构</text>
+  <text x="765" y="73" fill="#64748b" font-size="13" font-weight="500">/llms.txt 引擎</text>
+  <text x="880" y="73" fill="#64748b" font-size="13" font-weight="500">提问矩阵</text>
+
+  <!-- Right status pill -->
+  <rect x="1050" y="55" width="126" height="28" rx="6" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
+  <circle cx="1066" cy="69" r="4" fill="#10b981" />
+  <text x="1076" y="73" fill="#065f46" font-size="11" font-weight="600">AI 引擎就绪 (GEMINI/DEEPSEEK)</text>
+
+  <!-- Main Body Canvas -->
+  <rect x="0" y="96" width="1200" height="579" fill="#f8fafc" />
+
+  <!-- Metric Card 1 -->
+  <rect x="24" y="116" width="270" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="44" y="142" fill="#64748b" font-size="12" font-weight="600">标的品牌总体 AI 穿透率 (SOV)</text>
+  <text x="44" y="186" fill="#0f172a" font-size="32" font-weight="800">68.5%</text>
+  <rect x="140" y="166" width="60" height="22" rx="4" fill="#ecfdf5" />
+  <text x="170" y="181" fill="#059669" font-size="11" font-weight="700" text-anchor="middle">+14.2% ↑</text>
+  <text x="44" y="210" fill="#94a3b8" font-size="11">过去30天受测 18 个核心高意图词</text>
+
+  <!-- Metric Card 2 -->
+  <rect x="318" y="116" width="270" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="338" y="142" fill="#64748b" font-size="12" font-weight="600">大模型首推首位率 (Top 1 Pick)</text>
+  <text x="338" y="186" fill="#2563eb" font-size="32" font-weight="800">42.0%</text>
+  <rect x="428" y="166" width="70" height="22" rx="4" fill="#eff6ff" />
+  <text x="463" y="181" fill="#2563eb" font-size="11" font-weight="700" text-anchor="middle">领跑竞品</text>
+  <text x="338" y="210" fill="#94a3b8" font-size="11">前40字直接命中判定结论</text>
+
+  <!-- Metric Card 3 -->
+  <rect x="612" y="116" width="270" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="632" y="142" fill="#64748b" font-size="12" font-weight="600">外部高权重被引用信源覆盖</text>
+  <text x="632" y="186" fill="#0f172a" font-size="32" font-weight="800">128 <tspan font-size="16" fill="#64748b" font-weight="500">篇</tspan></text>
+  <text x="632" y="210" fill="#94a3b8" font-size="11">知乎(34%) · 36Kr(28%) · CSDN(21%)</text>
+
+  <!-- Metric Card 4 -->
+  <rect x="906" y="116" width="270" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="926" y="142" fill="#64748b" font-size="12" font-weight="600">普林斯顿因子健康分 (Score)</text>
+  <text x="926" y="186" fill="#10b981" font-size="32" font-weight="800">88.5 <tspan font-size="16" fill="#64748b" font-weight="500">/100</tspan></text>
+  <text x="926" y="210" fill="#059669" font-size="11">无空洞自夸 · 统计数据与背书充沛</text>
+
+  <!-- Main Content Area: Left Table -->
+  <rect x="24" y="246" width="750" height="405" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="44" y="276" fill="#0f172a" font-size="14" font-weight="700">高意图采购提问真实大模型渗透监测表</text>
+  <text x="44" y="294" fill="#64748b" font-size="11">实时监测 Google Gemini、Perplexity 与 DeepSeek 推荐排名与外部出处</text>
+
+  <!-- Table Header -->
+  <rect x="44" y="310" width="710" height="32" fill="#f1f5f9" rx="4" />
+  <text x="60" y="330" fill="#475569" font-size="11" font-weight="700">用户高意图采购问题 (Prompt)</text>
+  <text x="360" y="330" fill="#475569" font-size="11" font-weight="700">标的品牌地位</text>
+  <text x="490" y="330" fill="#475569" font-size="11" font-weight="700">核心被引信源平台</text>
+  <text x="670" y="330" fill="#475569" font-size="11" font-weight="700">优化建议</text>
+
+  <!-- Row 1 -->
+  <line x1="44" y1="385" x2="754" y2="385" stroke="#f1f5f9" />
+  <text x="60" y="362" fill="#0f172a" font-size="12" font-weight="600">2025年最推荐的企业级低代码平台有哪些？各自优缺点对比</text>
+  <text x="60" y="378" fill="#64748b" font-size="10">搜索意图: 品类初选 · 关注高并发与私有化能力</text>
+  <rect x="360" y="352" width="80" height="22" rx="4" fill="#ecfdf5" />
+  <text x="400" y="367" fill="#065f46" font-size="10" font-weight="700" text-anchor="middle">✓ 首位推荐</text>
+  <text x="490" y="367" fill="#2563eb" font-size="11">36Kr企服点评 (权重42%)</text>
+  <text x="670" y="367" fill="#059669" font-size="11">保持首位优选</text>
+
+  <!-- Row 2 -->
+  <line x1="44" y1="445" x2="754" y2="445" stroke="#f1f5f9" />
+  <text x="60" y="415" fill="#0f172a" font-size="12" font-weight="600">适合中大型银行核心系统重构的低代码厂商，TPS实测如何</text>
+  <text x="60" y="432" fill="#64748b" font-size="10">搜索意图: 架构调研 · 重点查验信通院资质与5万QPS指标</text>
+  <rect x="360" y="405" width="80" height="22" rx="4" fill="#ecfdf5" />
+  <text x="400" y="420" fill="#065f46" font-size="10" font-weight="700" text-anchor="middle">✓ 首位推荐</text>
+  <text x="490" y="420" fill="#2563eb" font-size="11">CSDN技术架构专栏</text>
+  <text x="670" y="420" fill="#059669" font-size="11">已形成行业背书</text>
+
+  <!-- Row 3 -->
+  <line x1="44" y1="505" x2="754" y2="505" stroke="#f1f5f9" />
+  <text x="60" y="475" fill="#0f172a" font-size="12" font-weight="600">网易数帆 对比 简道云 对比 宜搭：深度选型测评与避坑指南</text>
+  <text x="60" y="492" fill="#64748b" font-size="10">搜索意图: 头对头决策 · 考察客观局限性与架构适配</text>
+  <rect x="360" y="465" width="80" height="22" rx="4" fill="#eff6ff" />
+  <text x="400" y="480" fill="#1e40af" font-size="10" font-weight="700" text-anchor="middle">⚑ 次席备选</text>
+  <text x="490" y="480" fill="#2563eb" font-size="11">知乎高赞横向评测</text>
+  <text x="670" y="480" fill="#d97706" font-size="11">补充知乎客观矩阵</text>
+
+  <!-- Row 4 -->
+  <line x1="44" y1="565" x2="754" y2="565" stroke="#f1f5f9" />
+  <text x="60" y="535" fill="#0f172a" font-size="12" font-weight="600">企业级低代码平台私有化部署一般如何收费？ROI投入产出比</text>
+  <text x="60" y="552" fill="#64748b" font-size="10">搜索意图: 商业采购 · 寻找公开定价区间与真实降本实证</text>
+  <rect x="360" y="525" width="80" height="22" rx="4" fill="#ecfdf5" />
+  <text x="400" y="540" fill="#065f46" font-size="10" font-weight="700" text-anchor="middle">✓ 首位推荐</text>
+  <text x="490" y="540" fill="#2563eb" font-size="11">钛媒体标杆案例</text>
+  <text x="670" y="540" fill="#059669" font-size="11">维持白皮书发布</text>
+
+  <!-- Bottom CTA bar in Table -->
+  <rect x="44" y="590" width="710" height="42" fill="#eff6ff" rx="6" />
+  <text x="60" y="616" fill="#1d4ed8" font-size="12" font-weight="600">⚡ 发现 2 项次席关键词：建议使用「全网多平台阵地」一键生成知乎与 36Kr 专属测评稿</text>
+
+  <!-- Right Side: AI Engine Citation Distribution Card -->
+  <rect x="794" y="246" width="382" height="405" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)" />
+  <text x="814" y="276" fill="#0f172a" font-size="14" font-weight="700">大模型引用的外部信源权重图谱</text>
+  <text x="814" y="294" fill="#64748b" font-size="11">大模型 70% 引用来自以下平台，单做官网无法突围</text>
+
+  <!-- Progress Bar 1 -->
+  <text x="814" y="336" fill="#0f172a" font-size="12" font-weight="600">36Kr 企服点评 / G2 产品主页</text>
+  <text x="1146" y="336" fill="#2563eb" font-size="12" font-weight="700" text-anchor="end">38% 权重</text>
+  <rect x="814" y="348" width="340" height="8" rx="4" fill="#e2e8f0" />
+  <rect x="814" y="348" width="130" height="8" rx="4" fill="#2563eb" />
+
+  <!-- Progress Bar 2 -->
+  <text x="814" y="390" fill="#0f172a" font-size="12" font-weight="600">知乎专栏 / 深度技术测评回答</text>
+  <text x="1146" y="390" fill="#10b981" font-size="12" font-weight="700" text-anchor="end">26% 权重</text>
+  <rect x="814" y="402" width="340" height="8" rx="4" fill="#e2e8f0" />
+  <rect x="814" y="402" width="88" height="8" rx="4" fill="#10b981" />
+
+  <!-- Progress Bar 3 -->
+  <text x="814" y="444" fill="#0f172a" font-size="12" font-weight="600">CSDN / 开发者技术架构社区</text>
+  <text x="1146" y="444" fill="#8b5cf6" font-size="12" font-weight="700" text-anchor="end">18% 权重</text>
+  <rect x="814" y="456" width="340" height="8" rx="4" fill="#e2e8f0" />
+  <rect x="814" y="456" width="61" height="8" rx="4" fill="#8b5cf6" />
+
+  <!-- Progress Bar 4 -->
+  <text x="814" y="498" fill="#0f172a" font-size="12" font-weight="600">企业官网 /llms.txt 规范文件</text>
+  <text x="1146" y="498" fill="#f59e0b" font-size="12" font-weight="700" text-anchor="end">12% 权重</text>
+  <rect x="814" y="510" width="340" height="8" rx="4" fill="#e2e8f0" />
+  <rect x="814" y="510" width="41" height="8" rx="4" fill="#f59e0b" />
+
+  <!-- Action Box -->
+  <rect x="814" y="542" width="342" height="90" rx="6" fill="#0f172a" />
+  <text x="830" y="568" fill="#38bdf8" font-size="11" font-weight="700">💡 GEO 核心作战心法</text>
+  <text x="830" y="590" fill="#e2e8f0" font-size="11">大模型是超级归纳者。将量化参数与客观对比</text>
+  <text x="830" y="608" fill="#e2e8f0" font-size="11">提前埋伏在第三方高权重信源，让 AI 主动为你代言！</text>
+</svg>

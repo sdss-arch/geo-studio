@@ -17,6 +17,10 @@
 
 </div>
 
+<p align="center">
+  <img src="docs/screenshots/dashboard_overview.svg" alt="GEO Studio 企业级全景监控大盘与全网作战中枢" width="100%" />
+</p>
+
 ---
 
 ## 📖 为什么企业必须做 GEO？
@@ -44,10 +48,18 @@
 - **百度百科 / 维基百科标准词条**：零公关推销词，抢占大模型知识图谱实体命名权。
 - **商业媒体标杆案例**：钛媒体/36Kr 风格的大型客户落地 ROI 降本增效实录。
 
+<p align="center">
+  <img src="docs/screenshots/multi_platform_hub.svg" alt="全网多平台阵地物料生成与防折叠规范" width="100%" />
+</p>
+
 ### 3. 🔍 实机大模型搜索探测与引用溯源 (Live AI Probe)
 - **真实联网检索**：实时模拟并探测大模型在面对采购长尾提问时的真实推荐顺序与提及情况。
 - **多算法视角一键切换**：支持自由选择 **Google Gemini 3.8 Flash**、**Perplexity (Sonar)**、**OpenAI SearchGPT**、**Anthropic Claude**、**DeepSeek-R1** 的检索重排偏好。
 - **穿透率诊断**：精准研判自身品牌处于「核心首推位」、「次席备选位」还是「未被收录」，并提取所有被引用的第三方网页标题与域名。
+
+<p align="center">
+  <img src="docs/screenshots/live_probe.svg" alt="实机大模型搜索探测与真实搜索溯源出处" width="100%" />
+</p>
 
 ### 4. 🔬 边学边练文案手术台 (Practice Sandbox & Clinic)
 - 现场病句诊断：输入平时写的产品文案（如*“行业领先/极致体验”*），系统实时标出大模型判定为广告噪音的词汇。

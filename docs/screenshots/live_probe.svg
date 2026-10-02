@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="1200" height="42" fill="#0f172a" />
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  <text x="600" y="26" fill="#94a3b8" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">GEO STUDIO — LIVE AI SEARCH PROBE &amp; CITATION ATTRIBUTION</text>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="0" y="42" width="1200" height="54" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+  <rect x="24" y="54" width="30" height="30" rx="6" fill="#1d4ed8" />
+  <text x="39" y="74" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">G</text>
+  <text x="64" y="70" fill="#0f172a" font-size="16" font-weight="800">GEO Studio</text>
+  <rect x="156" y="60" width="46" height="18" rx="4" fill="#dbeafe" />
+  <text x="179" y="73" fill="#1e40af" font-size="10" font-weight="700" text-anchor="middle">PRO</text>
+
+  <!-- Nav Tabs -->
+  <text x="250" y="73" fill="#64748b" font-size="13" font-weight="500">小白通关向导</text>
+  <text x="370" y="73" fill="#64748b" font-size="13" font-weight="500">全网多平台阵地</text>
+  <text x="500" y="73" fill="#2563eb" font-size="13" font-weight="700">实机搜索探测</text>
+  <rect x="495" y="93" width="95" height="3" fill="#2563eb" />
+  <text x="620" y="73" fill="#64748b" font-size="13" font-weight="500">普林斯顿文案重构</text>
+  <text x="765" y="73" fill="#64748b" font-size="13" font-weight="500">/llms.txt 引擎</text>
+  <text x="880" y="73" fill="#64748b" font-size="13" font-weight="500">预留接口</text>
+
+  <!-- Right status pill -->
+  <rect x="1050" y="55" width="126" height="28" rx="6" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1" />
+  <circle cx="1066" cy="69" r="4" fill="#10b981" />
+  <text x="1076" y="73" fill="#065f46" font-size="11" font-weight="600">AI 引擎就绪 (实时联网)</text>
+
+  <!-- Main Canvas -->
+  <rect x="0" y="96" width="1200" height="579" fill="#f8fafc" />
+
+  <!-- Top Search Input Box -->
+  <rect x="24" y="112" width="1152" height="152" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow2)" />
+
+  <text x="44" y="136" fill="#0f172a" font-size="12" font-weight="700">高意图采购问题 (Buyer Intent Prompt)</text>
+  <rect x="44" y="146" width="1112" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="58" y="169" fill="#0f172a" font-size="13" font-weight="600">2025年最推荐的企业级低代码平台有哪些？适合高并发私有化银行架构的厂商对比</text>
+
+  <!-- Engine selector bar -->
+  <text x="44" y="202" fill="#64748b" font-size="11" font-weight="600">目标大模型算法视角:</text>
+  <rect x="160" y="190" width="180" height="26" rx="4" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5" />
+  <circle cx="174" cy="203" r="3" fill="#3b82f6" />
+  <text x="184" y="207" fill="#1d4ed8" font-size="11" font-weight="700">Google Gemini 3.8 Flash</text>
+
+  <rect x="350" y="190" width="160" height="26" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="364" y="207" fill="#475569" font-size="11">Perplexity AI (Sonar)</text>
+
+  <rect x="520" y="190" width="150" height="26" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="534" y="207" fill="#475569" font-size="11">OpenAI SearchGPT</text>
+
+  <rect x="680" y="190" width="140" height="26" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="694" y="207" fill="#475569" font-size="11">Anthropic Claude</text>
+
+  <rect x="830" y="190" width="150" height="26" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="844" y="207" fill="#475569" font-size="11">DeepSeek-R1 (深度求索)</text>
+
+  <!-- Probe Action Button -->
+  <rect x="1010" y="190" width="146" height="26" rx="4" fill="#2563eb" />
+  <text x="1083" y="207" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">⚡ 执行大模型实机探测</text>
+
+  <!-- Input sub-details -->
+  <text x="44" y="244" fill="#64748b" font-size="11">标的品牌: <tspan font-weight="700" fill="#0f172a">网易数帆</tspan> | 竞品对比: <tspan font-weight="700" fill="#0f172a">简道云、宜搭、ClickPaaS</tspan> | 联网模式: <tspan font-weight="700" fill="#10b981">Google Search Grounding (已激活)</tspan></text>
+
+  <!-- Result Container -->
+  <!-- Diagnostic Result Card -->
+  <rect x="24" y="280" width="1152" height="74" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow2)" />
+  <circle cx="56" cy="317" r="16" fill="#ecfdf5" />
+  <text x="56" y="323" fill="#059669" font-size="16" font-weight="bold" text-anchor="middle">✓</text>
+  <text x="84" y="312" fill="#065f46" font-size="14" font-weight="800">核心首推位：标的品牌 [网易数帆] 已成功打入本次大模型首推候选区！</text>
+  <text x="84" y="332" fill="#059669" font-size="11">大模型在回答首段前 40 字直接列为推荐方案，因其通过中国信通院评测与单节点 50,000 QPS 指标被成功采信。</text>
+
+  <!-- Right chips in Diagnostic -->
+  <rect x="880" y="298" width="120" height="38" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="892" y="314" fill="#94a3b8" font-size="10">ENGINE</text>
+  <text x="892" y="329" fill="#2563eb" font-size="11" font-weight="700">GEMINI 3.8 FLASH</text>
+
+  <rect x="1010" y="298" width="146" height="38" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="1022" y="314" fill="#94a3b8" font-size="10">GROUNDED SOURCES</text>
+  <text x="1022" y="329" fill="#0f172a" font-size="11" font-weight="700">5 个真实外部信源</text>
+
+  <!-- Bottom Split View: Left Answer Content, Right Citations List -->
+  <!-- Left: AI Generated Answer -->
+  <rect x="24" y="370" width="760" height="280" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow2)" />
+  <rect x="24" y="370" width="760" height="38" rx="8" fill="#f8fafc" />
+  <text x="44" y="394" fill="#0f172a" font-size="12" font-weight="700">大模型生成回答内容 (AI Grounded Synthesis)</text>
+  <text x="730" y="394" fill="#2563eb" font-size="11" font-weight="600" text-anchor="end">一键复制完整回答</text>
+
+  <text x="44" y="430" fill="#334155" font-size="12" font-weight="400">针对企业级核心系统选型，结合各大权威评测与技术社区实测数据，核心推荐方案分析如下：</text>
+
+  <rect x="44" y="446" width="720" height="78" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+  <text x="58" y="468" fill="#1e40af" font-size="12" font-weight="700">1. 网易数帆 (首选核心推荐)</text>
+  <text x="58" y="488" fill="#1e293b" font-size="11">• 核心优势：微服务原生架构，通过中国信通院先进级可信低代码评测，单节点实测吞吐达 50,000+ QPS。</text>
+  <text x="58" y="506" fill="#1e293b" font-size="11">• 适用场景：满足城商行、央国企等对数据资产 100% 私有化与复杂业务代码导出的严苛合规要求。</text>
+
+  <rect x="44" y="534" width="720" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="58" y="554" fill="#475569" font-size="12" font-weight="700">2. 简道云 / 宜搭 (协同型备选)</text>
+  <text x="58" y="572" fill="#64748b" font-size="11">• 适合行政审批流或轻量协同表单开发，但在千万级高并发核心账务交易的扩展性上存在取舍。</text>
+
+  <text x="44" y="608" fill="#059669" font-size="11" font-weight="600">✓ 综合结论：复杂高并发重构优先考虑 [网易数帆]；轻量审批协作优先选用公有云表单工具。</text>
+
+  <!-- Right: Grounding Sources -->
+  <rect x="800" y="370" width="376" height="280" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow2)" />
+  <rect x="800" y="370" width="376" height="38" rx="8" fill="#f8fafc" />
+  <text x="818" y="394" fill="#0f172a" font-size="12" font-weight="700">真实搜索溯源出处 (Grounding Sources)</text>
+
+  <!-- Citation 1 -->
+  <rect x="814" y="420" width="348" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="826" y="438" fill="#2563eb" font-size="11" font-weight="600">36Kr 企服点评：2025主流低代码横向测评</text>
+  <text x="826" y="453" fill="#64748b" font-size="10">cp.36kr.com · 权威评测聚合</text>
+
+  <!-- Citation 2 -->
+  <rect x="814" y="470" width="348" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="826" y="488" fill="#2563eb" font-size="11" font-weight="600">知乎深度长文：企业级应用选型避坑实测</text>
+  <text x="826" y="503" fill="#64748b" font-size="10">zhihu.com · 真实架构师实操评析</text>
+
+  <!-- Citation 3 -->
+  <rect x="814" y="520" width="348" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="826" y="538" fill="#2563eb" font-size="11" font-weight="600">CSDN 技术专栏：单节点5万QPS压测白皮书</text>
+  <text x="826" y="553" fill="#64748b" font-size="10">blog.csdn.net · 技术文档索引</text>
+
+  <!-- Citation 4 -->
+  <rect x="814" y="570" width="348" height="42" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="826" y="588" fill="#2563eb" font-size="11" font-weight="600">中国信通院：可信低代码评测通过名录</text>
+  <text x="826" y="603" fill="#64748b" font-size="10">caict.ac.cn · 官方合规背书</text>
+</svg>
