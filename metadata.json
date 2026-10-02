@@ -1,0 +1,6 @@
+{
+  "name": "GEO Studio - 企业级生成式引擎优化工作台",
+  "description": "面向企业级AI搜索优化(Perplexity/ChatGPT/Gemini/Claude)的深度GEO工作台，提供实机大模型搜索探测、引用穿透率分析、llms.txt生成、知识图谱实体对齐与GEO内容强化引擎。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
