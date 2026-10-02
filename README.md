@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![CI Pipeline](https://github.com/leosile6/geo-studio/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ed.svg)
 ![React](https://img.shields.io/badge/React-18.x-61dafb.svg)
