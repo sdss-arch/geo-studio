@@ -1,0 +1,44 @@
+name: 🐛 Bug 报告 (Bug Report)
+description: 提交在使用 GEO Studio 时遇到的问题或错误
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您向 GEO Studio 报告问题！请详细描述以便开发团队快速复现与定位。
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？请详细描述您遇到的异常现象。
+      placeholder: 例如：在执行实机探测时，点击按钮后提示超时或信源解析异常...
+    validations:
+      required: true
+  - type: dropdown
+    id: ai-engine
+    attributes:
+      label: 发生问题的 AI 引擎
+      options:
+        - 内置智能引擎 (Built-in)
+        - Google Gemini 3.8 Flash
+        - DeepSeek (官方 / 硅基流动)
+        - 本地私有化 Ollama
+        - OpenAI / ChatGPT
+        - Perplexity AI
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 复现步骤
+      description: 请列出复现此问题的具体步骤
+      placeholder: |
+        1. 打开工作台
+        2. 点击实机探测
+        3. 输入查询词 '...' 并点击执行
+  - type: textarea
+    id: logs-or-screenshots
+    attributes:
+      label: 错误截图或控制台日志 (Console Logs)
+      description: 请粘贴浏览器控制台或终端打印的错误信息

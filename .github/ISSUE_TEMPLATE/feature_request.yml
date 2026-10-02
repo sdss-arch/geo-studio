@@ -1,0 +1,30 @@
+name: 💡 新功能建议 (Feature Request)
+description: 为 GEO Studio 提议新的功能、新的外部信源支持或优化点
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎为 GEO Studio 提出您宝贵的创新想法！
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 功能场景与需求背景
+      description: 您的这项建议希望解决业务中的什么痛点？
+      placeholder: 例如：希望新增对接企业微信 Webhook 实时通知，或者增加小红书/微信搜索信源抓取...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 期望的实现方案
+      description: 您认为这个功能应该如何运作或展现？
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级建议
+      options:
+        - 核心实战必备 (High)
+        - 体验优化升级 (Medium)
+        - 边缘尝鲜特性 (Low)

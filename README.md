@@ -2,29 +2,31 @@
 
 <div align="center">
 
+![CI Pipeline](https://github.com/leosile6/geo-studio/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Docker](https://img.shields.io/badge/docker-ready-2496ed.svg)
 ![React](https://img.shields.io/badge/React-18.x-61dafb.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6.svg)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-38bdf8.svg)
 ![Multi-AI](https://img.shields.io/badge/AI--Providers-Gemini%20%7C%20DeepSeek%20%7C%20Ollama%20%7C%20OpenAI-emerald.svg)
 
-**专为企业营销、品牌公关与技术团队打造的下一代 AI 搜索优化 (GEO) 全流程中枢**  
-*全面覆盖：小白入门通关 · 全网多平台布控 · 实机联网探测 · 普林斯顿文案手术台 · /llms.txt 规范 · 实体知识图谱*
+**专为企业营销、品牌公关与架构团队打造的下一代 AI 搜索优化 (GEO) 全流程工作台**  
+*小白入门通关 · 全网多平台布控 · 实机联网探测 · 普林斯顿文案重构 · /llms.txt 规范 · 实体知识图谱*
 
-[在线演示](#在线演示) • [为什么需要GEO](#一为什么企业必须做-geo) • [核心功能](#二核心功能模块) • [多模型配置](#三多厂商-ai-接入指南) • [快速开始](#四-3-步极速本地启动) • [开源协议](#开源协议)
+[在线特性](#-核心功能模块) • [为什么做GEO](#-为什么企业必须做-geo) • [多模型配置](#-三多厂商-ai-接入指南) • [快速开始](#-四快速启动指南) • [Docker部署](#-五-docker-一键部署) • [开源协议](#-开源协议)
 
 </div>
 
 ---
 
-## 📖 什么是 GEO？为什么只做官网绝对行不通？
+## 📖 为什么企业必须做 GEO？
 
-在生成式 AI 时代，企业客户的搜索习惯已经从“在传统搜索引擎翻看十条蓝色链接”转变为**直接向 ChatGPT、Perplexity、Google Gemini、DeepSeek 提问**：
-> *“2025年最推荐的企业级软件/服务有哪些？各自优缺点对比”*
+在生成式 AI 时代，企业买家与技术决策者的信息获取习惯已经从“在搜索引擎中翻看十条广告链接”转变为**直接向 ChatGPT、Perplexity、Google Gemini、DeepSeek 提问**：
+> *“2025年最推荐的企业级低代码平台/跨境结汇/私有云厂商有哪些？求各自优缺点与实测参数对比”*
 
-大模型不会逐字照搬网页，而是通过 **RAG (检索增强生成)** 召回高置信度切片后归纳输出。**传统 SEO 的外链堆叠和关键词堆砌在 LLM 面前彻底失效，甚至会被模型判定为广告推销噪音予以过滤！**
+大模型不会逐字照搬网页，而是通过 **RAG (检索增强生成)** 召回高置信度切片后归纳输出。**传统的 SEO 堆词、刷外链在 LLM 面前彻底失效，甚至会被算法判定为低质量广告噪音予以屏蔽！**
 
-更重要的是：大模型在回答采购推荐时，**65%~75% 的引用来自于外部第三方高权重信源（知乎、36Kr 企服点评、G2、CSDN、百度百科）**。
+更关键的是：大模型在生成采购推荐时，**65%~75% 的引用来自于外部第三方高权重信源（知乎、36Kr 企服点评、G2、CSDN、百度百科）**。  
 **GEO Studio 绝不是让你关在自己官网单打独斗，而是作为您的「全网多平台阵地作战指挥中枢」！**
 
 ---
@@ -72,14 +74,14 @@
 
 ## 🛠️ 三、多厂商 AI 接入指南
 
-本系统采用通用 **Universal AI Dispatcher 网关**，无论是本地离线使用还是企业云端部署，均支持灵活接入多种 AI 底座：
+本系统采用通用 **Universal AI Dispatcher 网关**，无论是本地离线使用还是企业私有化部署，均支持灵活接入多种大模型：
 
 | 引擎类型 | 接入方式 | 适用场景 |
 | :--- | :--- | :--- |
 | **🟢 内置专业级 GEO 引擎** | **无需任何 Key，默认即用** | 零配置开箱即用、新手学习、离线演示 |
 | **🌐 Google Gemini 3.8 Flash** | 配置 `GEMINI_API_KEY` | 官方原生 Google 实时联网搜索工具 |
 | **🇨🇳 深度求索 DeepSeek** | 配置 `OPENAI_BASE_URL="https://api.deepseek.com"` | 国内高性价比、中文技术与知乎生态深度适配 |
-| **⚡ 本地私有化 Ollama** | 本地运行 `ollama run qwen2.5` | **完全免费、断网可用、数据不出企业局域网** |
+| **⚡ 本地私有化 Ollama** | 本地运行 `ollama run qwen2.5` | **完全免费、断网可用、数据不出企业内网** |
 | **🤖 OpenAI / ChatGPT** | 配置 `OPENAI_API_KEY` | 标准 GPT-4o / SearchGPT 商业推荐分析 |
 | **🔍 Perplexity AI** | 配置 `PERPLEXITY_API_KEY` | Sonar 深度学术引用与引用链分析 |
 
@@ -92,11 +94,11 @@ cp .env.example .env
 
 ---
 
-## 💻 四、3 步极速本地启动
+## 💻 四、快速启动指南
 
 ### 1. 克隆代码仓库
 ```bash
-git clone https://github.com/your-username/geo-studio.git
+git clone https://github.com/leosile6/geo-studio.git
 cd geo-studio
 ```
 
@@ -114,10 +116,35 @@ npm run dev
 
 ---
 
+## 🐳 五、Docker 一键部署
+
+适合企业内网、私有服务器或生产环境：
+
+```bash
+# 构建并后台启动容器
+docker compose up -d
+
+# 查看运行状态
+docker compose ps
+
+# 停止容器
+docker compose down
+```
+
+服务将自动暴露于 `http://localhost:3000`。
+
+---
+
 ## 📂 项目结构概览
 
 ```text
+├── .github/
+│   ├── workflows/ci.yml        # GitHub Actions 自动化持续集成测试
+│   ├── ISSUE_TEMPLATE/         # 规范的 Bug、需求与实战案例议题模版
+│   └── pull_request_template.md# PR 规范模版
 ├── server.ts                   # 全栈后端 (Express + 多模型通用网关 + Webhook 路由)
+├── Dockerfile                  # 生产级 Docker 镜像构建
+├── docker-compose.yml          # Docker Compose 编排
 ├── src/
 │   ├── App.tsx                 # 主工作台应用容器
 │   ├── types/geo.ts            # GEO 核心领域 TypeScript 类型定义
@@ -135,14 +162,28 @@ npm run dev
 │   │   ├── integrations/       # 🔌 多模型状态、一键测速与预留接口管理
 │   │   └── layout/             # 顶栏导航与侧边工作台导航
 ├── .env.example                # 环境变量模版 (支持 Gemini、DeepSeek、Ollama 等)
+├── CONTRIBUTING.md             # 社区贡献指南
+├── CODE_OF_CONDUCT.md          # 行为准则
+├── SECURITY.md                 # 安全政策
+├── CHANGELOG.md                # 版本演进日志
 └── package.json
 ```
 
 ---
 
-## 🤝 贡献与反馈
+## 🗺️ 未来规划路线图 (Roadmap)
 
-欢迎提交 Issue 与 Pull Request！如果您在推进企业 GEO 的过程中发现了新的高权重信源平台或优化心得，欢迎加入共建。
+- [x] v1.0.0：全套 GEO 方法论、5步入门向导与 6 大平台实战生成
+- [x] 多模型通用网关 (Gemini / DeepSeek / Ollama / OpenAI / 内置引擎)
+- [ ] v1.1.0：企业微信 / 钉钉 / 飞书声量告警机器人 Webhook 推送
+- [ ] v1.2.0：支持自动化批量导入 100+ 提问矩阵执行定时巡检
+- [ ] v1.3.0：接入小红书 / 微信公众号信源专项挖掘模型
+
+---
+
+## 🤝 贡献与社区
+
+欢迎提交 Issue 与 Pull Request！如果您在推进企业 GEO 的过程中发现了新的高权重信源平台或优化心得，欢迎在 [Discussions/Issues](https://github.com/leosile6/geo-studio/issues) 中分享。
 
 ## 📄 开源协议
 

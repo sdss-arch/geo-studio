@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  geo-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: geo-studio
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      # 可选：配置外部 AI 模型或直接使用内置智能引擎
+      # - GEMINI_API_KEY=your_gemini_key
+      # - OPENAI_BASE_URL=https://api.deepseek.com
+      # - OPENAI_API_KEY=your_deepseek_key
+      # - AI_PROVIDER=auto
+    env_file:
+      - .env

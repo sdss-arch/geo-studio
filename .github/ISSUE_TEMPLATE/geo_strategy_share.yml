@@ -1,0 +1,24 @@
+name: 🎯 实战案例与高权重信源补充 (GEO Case & Source Share)
+description: 分享您所在行业的大模型搜索实测案例或发现的有效外链信源
+title: "[Case]: "
+labels: ["community-case", "knowledge-base"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GEO 是一个正在高速演进的领域，感谢您将一线的真实实战数据贡献给开源社区！
+  - type: input
+    id: industry
+    attributes:
+      label: 所属行业或产品品类
+      placeholder: 例如：B2B企服 SaaS / 跨境跨境电商 / 工业软件 / 医疗器械
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: 发现的大模型采信规律或高权重平台
+      description: 哪家 AI（ChatGPT、Perplexity、DeepSeek）在哪些平台上抓取了你或竞品的答案？
+      placeholder: 例如：发现 DeepSeek 对知乎专栏的技术矩阵表特别敏感；ChatGPT Search 重点引用 36Kr 企服点评...
+    validations:
+      required: true
